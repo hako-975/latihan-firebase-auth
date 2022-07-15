@@ -112,40 +112,6 @@
                 android:textSize="16sp"/>
 
             <FrameLayout
-                android:id="@+id/btnFacebookSignIn"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/bg_btn_facebook"
-                android:elevation="2dp"
-                android:layout_marginBottom="20dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_gravity="center">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_facebook"
-                        android:layout_marginRight="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Facebook"
-                        android:textSize="14sp"
-                        android:textColor="@color/white"
-                        android:textAllCaps="true"
-                        android:fontFamily="sans-serif-medium"/>
-
-                </LinearLayout>
-
-            </FrameLayout>
-
-            <FrameLayout
                 android:id="@+id/btnGoogleSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
